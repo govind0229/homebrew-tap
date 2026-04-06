@@ -1,4 +1,4 @@
-cask "workinghours" do
+cask "workinghours@1.5.0" do
   version "1.5.0"
   sha256 "b6ae75a6926a7eec191636921859ae5b1c543a75c3972ab851b6cffc0faafc6f"
 
