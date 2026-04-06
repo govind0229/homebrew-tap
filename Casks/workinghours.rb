@@ -1,6 +1,6 @@
 cask "workinghours" do
   version "1.5.0"
-  sha256 "b6ae75a6926a7eec191636921859ae5b1c543a75c3972ab851b6cffc0faafc6f"
+  sha256 "34e54e177d07d7a41a1d28995842da2d8d216aec0924f2227b5609fbf4558e78"
 
   url "https://github.com/govind0229/Workplace-monitor/releases/download/v#{version}/WorkplaceMonitor.pkg"
   name "Workplace Monitor"
@@ -9,5 +9,5 @@ cask "workinghours" do
 
   pkg "WorkplaceMonitor.pkg"
 
-  uninstall pkgutil: "com.user.workinghours"
+  uninstall pkgutil: "com.workplacemonitor.app"
 end
