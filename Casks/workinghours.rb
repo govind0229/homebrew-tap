@@ -1,6 +1,6 @@
 cask "workinghours" do
   version "1.6.0"
-  sha256 "a6ef037fa8fc1f0a9b338a377699221575c089431676358f786c8516841e94a1"
+  sha256 "8fcde9a87e8d23b5ee8980eeed8d31784e9f11dcb41b91c3bfe0ff961c0aafca"
 
   url "https://github.com/govind0229/Workplace-monitor/releases/download/v#{version}/WorkplaceMonitor.pkg"
   name "Workplace Monitor"
