@@ -3,11 +3,9 @@ cask "workinghours" do
 
   version "2.0.0"
   
-  if Hardware::CPU.intel?
-    sha256 "c68d53e8f2075e956e789dde9bb0ae84c33d9f699519e8020d484369579cb877"
-  else
-    sha256 "387fb64eef716d6ddc41625c6daad5cd5383e8512ff5571809b2f77e82e8195c"
-  end
+  # Homebrew will automatically pick the correct sha256 based on the architecture!
+  sha256 arm:   "387fb64eef716d6ddc41625c6daad5cd5383e8512ff5571809b2f77e82e8195c",
+         intel: "c68d53e8f2075e956e789dde9bb0ae84c33d9f699519e8020d484369579cb877"
 
   url "https://github.com/govind0229/Workplace-monitor/releases/download/v#{version}/WorkplaceMonitor-#{arch}.pkg"
   name "Workplace Monitor"
