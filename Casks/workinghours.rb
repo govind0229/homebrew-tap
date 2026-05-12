@@ -3,8 +3,8 @@ cask "workinghours" do
 
   version "3.0.0"
   
-  sha256 arm:   "f2e31be59bc55547a14bcac2739e4dff91f157920fae6fd1276d6b7d106742f2",
-         intel: "50e0473a7b2e86dde810a1b0de1916437051d28a483c1180675558016dd1473a"
+  sha256 arm:   "e32418ef3c157bc8e6ce08ed93f195e1c9550c3e8d2da11458c1467c672fdd03",
+         intel: "cec948081c33d262247dc406292d7ca74f791644035e2f26913e6a380d78dacd"
 
   url "https://github.com/govind0229/Workplace-monitor/releases/download/v#{version}/WorkplaceMonitor-#{arch}.pkg"
   name "Workplace Monitor"
