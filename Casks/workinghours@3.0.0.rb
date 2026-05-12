@@ -1,4 +1,4 @@
-cask "workinghours" do
+cask "workinghours@3.0.0" do
   arch arm: "arm64", intel: "x64"
 
   version "3.0.0"
