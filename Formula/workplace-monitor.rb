@@ -1,8 +1,8 @@
 class WorkplaceMonitor < Formula
   desc "Workplace activity tracker and status sync monitor"
   homepage "https://github.com/govind0229/Workplace-monitor"
-  url "https://github.com/govind0229/Workplace-monitor/releases/download/v9.0.0/workplace-monitor-v9.0.0.tar.gz"
-  sha256 "a00e07235ae7fa7b00c3a5515813c83a8fc5d8c229c9d1f352e4daef50d44ccb"
+  url "https://github.com/govind0229/Workplace-monitor/releases/download/v9.1.0/workplace-monitor-v9.1.0.tar.gz"
+  sha256 "14a86f58257d4029e99560de78a81faca147760853659c3fed5de2bc609bf23e"
   license "MIT"
 
   depends_on "node"
